@@ -125,7 +125,7 @@ def parse(infiles, year, resultsfile, totalsfile, statesfile):
   for state, count in results.groupby('state')['votes'].sum().iteritems():
     if count != totals_by_state[state]:
       print("Warning: data for %s has a numerical inconsistency (%.0f, %.0f)." % (state, count, totals_by_state[state]))
-  results.to_csv(resultsfile, sep='\t', index=False)
-  totals.to_csv(totalsfile, sep='\t', index=False)
+  results.to_csv(resultsfile, index=False)
+  totals.to_csv(totalsfile, index=False)
 if __name__ == '__main__':
   parse()

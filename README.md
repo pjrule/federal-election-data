@@ -2,7 +2,7 @@
 This project is an attempt to aggregate state-level federal election data in an easily readable open format for use in machine learning experiments and perhaps gerrymandering research. The Federal Election Commission has published statistics over the years in inconsistent formats—paper reports, generated HTML pages, and Excel files, each with varying schemas from year to year—which presents a barrier to entry to processing and manipulating the data in a programmatic way.
 
 ## Available formats
-All processed data is currently available as tab-separated CSV files in the "processed" directory. Currently available:
+All processed data is currently available as CSV files in the "processed" directory. Currently available:
   - 1992 Senate results
 
 ## Adding data and reporting issues
