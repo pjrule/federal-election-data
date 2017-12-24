@@ -2,3 +2,11 @@
 *~
 #*#
 *.save
+*.jpg
+*.jpeg
+*.png
+*.jpg.txt
+*.jpeg.txt
+*.png.txt
+*.pyc
+__pycache__
