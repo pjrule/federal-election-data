@@ -1,5 +1,5 @@
 # Historical Election Data
-This project is an attempt to aggregate state-level federal election data from presidential and Congressional elections that's been published throughout the years in inconsistent formats on various government websites in an easily readable open format for use in machine learning experiments and perhaps gerrymandering research. The Federal Election Commission has published statistics over the years in paper reports, generated HTML pages, and Excel files, which presents a barrier to entry to processing and manipulating the data in a programmatic way.
+This project is an attempt to aggregate state-level federal election data in an easily readable open format for use in machine learning experiments and perhaps gerrymandering research. The Federal Election Commission has published statistics over the years in inconsistent formats—paper reports, generated HTML pages, and Excel files, each with varying schemas from year to year—which presents a barrier to entry to processing and manipulating the data in a programmatic way.
 
 ## Available formats
 All processed data is currently available as tab-separated CSV files in the "processed" directory. Currently available:
