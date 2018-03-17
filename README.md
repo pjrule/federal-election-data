@@ -10,5 +10,8 @@ While modern OCR is quite good, the processed data from elections before 1996 ma
 
 Additional official sources of data are welcome.
 
+## Other election data
+The FEC (Federal Election Commission) has an API for campaign finance data called OpenFEC. Their documentation is here: https://api.open.fec.gov/developers/
+
 ## Licensing
 All raw documents created by the government, and thus the election statistics, are in the public domain. Processing scripts are governed by the MIT License. Processed data is in the public domain.
